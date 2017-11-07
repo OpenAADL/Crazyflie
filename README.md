@@ -35,3 +35,11 @@ From OSATE, the following capabilities are available
 - graphical model browsing/editing
 - flow latency analysis
 - fault analysis, including fault tree analysis
+
+## Q&A
+
+This model has been tested with
+
+|Tool   | Version |
+|-------|---------|
+| OSATE | 2.2.3   | 
