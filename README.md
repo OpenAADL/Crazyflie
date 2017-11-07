@@ -23,6 +23,7 @@ This model is organized as follows
 ### Import
 
 Simply import the GitHub project directly from OSATE, using the following menus:
+
   `File` -> `Import` -> `Git` -> `Projects from Git`
 
 then, indicate the project URI
