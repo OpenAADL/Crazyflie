@@ -19,3 +19,21 @@ It is organized as follows
 `diagrams`: graphical representation of the models, used by OSATE
 `library`: reusable AADL models
 `models`: Core AADL models of the Crazyflie UAV
+
+## Use with OSATE
+
+### Import
+
+Simply import the GitHub project directly from OSATE
+
+File -> Import -> Git -> Projects from Git
+
+then, indicate the project URI
+
+### Available analysis
+
+From OSATE, the following capabilities are available
+- text editing
+- graphical model browsing/editing
+- flow latency analysis
+- fault analysis, including fault tree analysis
