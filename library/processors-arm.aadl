@@ -1,0 +1,18 @@
+-- This package defines some processors from the ARM family
+
+package Processors::ARM
+public
+  with Processor_Properties;
+
+  -----------------
+  -- Generic_ARM --
+  -----------------
+
+  processor Generic_ARM
+  properties
+    Processor_Properties::Processor_Family => ARM;
+    Processor_Properties::Endianess        => Little_Endian;
+    Processor_Properties::Word_Length      => 32 bits;
+  end Generic_ARM;
+
+end Processors::ARM;
