@@ -5,7 +5,7 @@ AADL models for the Crazyflie UAV, demonstrating various AADL toolchains
 ## About
 
 This set of models has been built as part of various classes on
-AADL. 
+AADL.
 This model captures the high-level elements of the [Crazyflie
 UAV](https://www.bitcraze.io) by the bitcraze. It aims at illustrating basic CPS designs capabilities of AADL: model construction, analysis (flow latency, schedulability, fault analysis, code generation, ...)
 
@@ -30,16 +30,30 @@ then, indicate the project URI
 
 ### Available analysis
 
-From OSATE, the following capabilities are available
+The following capabilities of OSATE are demonstrated:
 - text editing
 - graphical model browsing/editing
 - flow latency analysis
 - fault analysis, including fault tree analysis
 
+## Use with AADL Inspector
+
+### Import
+
+Load the project file `crazyflie.aic` from the `models` folder
+
+### Available analysis
+
+The following capabilities of AADL Inspector are demonstrated:
+- text editing
+- schedulability analysis using Cheddar
+- model simulation using Marzhin
+
 ## Q&A
 
 This model has been tested with
 
-|Tool   | Version |
-|-------|---------|
-| OSATE | 2.2.3   | 
+|Tool           | Version |
+|---------------|---------|
+| OSATE         | 2.2.3   |
+| AADLInspector | 1.6     |
