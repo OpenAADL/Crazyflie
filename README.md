@@ -49,6 +49,10 @@ The following capabilities of AADL Inspector are demonstrated:
 - schedulability analysis using Cheddar
 - model simulation using Marzhin
 
+## Use with Ocarina
+
+Use the provided makefile, type `make help` for details
+
 ## Q&A
 
 This model has been tested with
@@ -57,3 +61,4 @@ This model has been tested with
 |---------------|---------|
 | OSATE         | 2.2.3   |
 | AADLInspector | 1.6     |
+| Ocarina       | 2017.x  |
