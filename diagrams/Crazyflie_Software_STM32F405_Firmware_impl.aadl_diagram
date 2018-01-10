@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="3">
+  <element id="0" manual="true" autoContentsFilter="allow_all">
+    <element id="26" manual="true" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>annex_subclause</seg>
+        <seg>emv2</seg>
+        <seg>0</seg>
+      </bo>
+      <position x="598.0" y="264.0"/>
+      <size width="150.0" height="51.0"/>
+    </element>
+    <element id="27" autoContentsFilter="allow_fundamental">
+      <element id="45" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c1</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="29" autoContentsFilter="allow_fundamental">
+      <element id="44" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c2</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="31" autoContentsFilter="allow_fundamental">
+      <element id="43" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c3</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="32" autoContentsFilter="allow_fundamental">
+      <element id="42" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c4</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="33" autoContentsFilter="allow_fundamental">
+      <element id="51" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c5</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="34" autoContentsFilter="allow_fundamental">
+      <element id="50" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c6</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="30" autoContentsFilter="allow_fundamental">
+      <element id="48" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c7</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="28" autoContentsFilter="allow_fundamental">
+      <element id="47" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c8</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="35" autoContentsFilter="allow_fundamental">
+      <element id="41" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>c9</seg>
+      </bo>
+      <primaryLabelPosition x="-6.0" y="-20.0"/>
+    </element>
+    <element id="3" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>dofs</seg>
+      </bo>
+      <position y="205.0"/>
+    </element>
+    <element id="4" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>rate_1</seg>
+      </bo>
+      <position x="920.0" y="81.0"/>
+    </element>
+    <element id="5" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>rate_2</seg>
+      </bo>
+      <position x="920.0" y="125.0"/>
+    </element>
+    <element id="6" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>rate_3</seg>
+      </bo>
+      <position x="920.0" y="169.0"/>
+    </element>
+    <element id="7" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>rate_4</seg>
+      </bo>
+      <position x="920.0" y="213.0"/>
+    </element>
+    <element id="1" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>syslink_packet_rx</seg>
+      </bo>
+      <position y="131.0"/>
+    </element>
+    <element id="2" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>syslink_packet_tx</seg>
+      </bo>
+      <position y="40.0"/>
+    </element>
+    <element id="36" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>f1</seg>
+      </bo>
+      <bendpoints>
+        <point x="124.0" y="373.0"/>
+        <point x="926.0" y="372.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="5.0" y="10.0"/>
+    </element>
+    <element id="37" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>f2</seg>
+      </bo>
+      <bendpoints>
+        <point x="85.0" y="399.0"/>
+        <point x="648.0" y="400.0"/>
+        <point x="936.0" y="399.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="5.0" y="10.0"/>
+    </element>
+    <element id="39" autoContentsFilter="allow_fundamental">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element id="11" manual="true" autoContentsFilter="allow_type">
+      <element id="12" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg</seg>
+        </bo>
+        <position y="20.0"/>
+      </element>
+      <element id="13" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslink_packet</seg>
+        </bo>
+        <position x="320.0" y="20.0"/>
+      </element>
+      <element id="14" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>fs1</seg>
+        </bo>
+        <primaryLabelPosition x="5.0" y="10.0"/>
+      </element>
+      <element id="40" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>crtp_rx_task</seg>
+      </bo>
+      <position x="145.0" y="111.0"/>
+      <size width="433.0" height="71.0"/>
+    </element>
+    <element id="8" manual="true" autoContentsFilter="allow_type">
+      <element id="9" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>msg</seg>
+        </bo>
+        <position y="20.0"/>
+      </element>
+      <element id="10" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslink_packet</seg>
+        </bo>
+        <position x="320.0" y="20.0"/>
+      </element>
+      <element id="38" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>crtp_tx_task</seg>
+      </bo>
+      <position x="145.0" y="20.0"/>
+      <size width="433.0" height="71.0"/>
+    </element>
+    <element id="16" manual="true" autoContentsFilter="allow_type">
+      <element id="17" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>dofs</seg>
+        </bo>
+        <position y="180.0"/>
+      </element>
+      <element id="20" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>rate_1</seg>
+        </bo>
+        <position x="262.0" y="62.0"/>
+      </element>
+      <element id="21" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>rate_2</seg>
+        </bo>
+        <position x="262.0" y="106.0"/>
+      </element>
+      <element id="22" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>rate_3</seg>
+        </bo>
+        <position x="262.0" y="150.0"/>
+      </element>
+      <element id="23" manual="true" autoContentsFilter="allow_fundamental" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>rate_4</seg>
+        </bo>
+        <position x="262.0" y="194.0"/>
+      </element>
+      <element id="18" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslink_packet_rx</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element id="19" manual="true" autoContentsFilter="allow_fundamental" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>syslink_packet_tx</seg>
+        </bo>
+        <position y="20.0"/>
+      </element>
+      <element id="24" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>fs1</seg>
+        </bo>
+        <primaryLabelPosition x="5.0" y="10.0"/>
+      </element>
+      <element id="25" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>fs2</seg>
+        </bo>
+        <primaryLabelPosition x="5.0" y="10.0"/>
+      </element>
+      <element id="49" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>main_loop</seg>
+      </bo>
+      <position x="598.0" y="20.0"/>
+      <size width="323.0" height="233.0"/>
+    </element>
+    <element id="15" manual="true" autoContentsFilter="allow_type">
+      <element id="46" autoContentsFilter="allow_fundamental">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>power_management</seg>
+      </bo>
+      <position x="130.0" y="250.0"/>
+      <size width="305.0" height="50.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>stm32f405_firmware.impl</seg>
+    </bo>
+    <position x="20.0" y="20.0"/>
+    <size width="981.0" height="411.0"/>
+  </element>
+  <config>
+    <enabledAadlProperties>
+      <property>deployment_properties::allowed_memory_binding</property>
+      <property>deployment_properties::actual_function_binding</property>
+      <property>deployment_properties::allowed_connection_binding</property>
+      <property>deployment_properties::allowed_processor_binding</property>
+      <property>deployment_properties::actual_memory_binding</property>
+      <property>deployment_properties::actual_processor_binding</property>
+      <property>deployment_properties::actual_connection_binding</property>
+    </enabledAadlProperties>
+    <context>
+      <seg>classifier</seg>
+      <seg>crazyflie_software::stm32f405_firmware.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
