@@ -2,6 +2,8 @@
 
 AADL models for the Crazyflie UAV, demonstrating various AADL toolchains
 
+***Note:*** This model is used as part of Georgia Tech OMSCS Class CS7639. 
+
 ## About
 
 This set of models has been built as part of various classes on
