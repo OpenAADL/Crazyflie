@@ -3,6 +3,7 @@ public
 
   with Crazyflie_Hardware;
   with Crazyflie_Software;
+  with Cheddar_Transformation_Properties;
 
   system Crazyflie_System extends Crazyflie_Hardware::Crazyflie
   end Crazyflie_System;
@@ -46,6 +47,8 @@ public
     Actual_Connection_Binding => (reference (UART)) applies to C10;
     Actual_Connection_Binding => (reference (I2C)) applies to C11;
     
+    Cheddar_Transformation_Properties::Exported_Attribute_Time_Units => MicroSecond;
+    Cheddar_Transformation_Properties::Transform_Sporadic_To_Periodic => true;
   annex EMV2 {**
     use types Crazyflie_Errors;
     use behavior Crazyflie_Errors::simple;
